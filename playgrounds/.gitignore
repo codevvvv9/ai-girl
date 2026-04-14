@@ -1,0 +1,83 @@
+# 依赖
+node_modules/
+/jspm_packages/
+
+# 构建输出
+/dist/
+/build/
+/.next/
+/.nuxt/
+/out/
+/.output/
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 运行时数据
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# 测试覆盖率
+/coverage/
+/.nyc_output/
+
+# 缓存
+.eslintcache
+.parcel-cache/
+.cache/
+.vite/
+
+# 编辑器及 IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# 操作系统生成文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# 打包文件
+*.tgz
+*.tar.gz
+*.zip
+
+# 本地配置文件
+*.local
+
+# TypeScript 编译输出（如果直接编译到项目内）
+*.js
+*.d.ts
+*.js.map
+!*.config.js
+!*.config.ts
+# 注意：如果 TypeScript 直接输出到 src 同目录，请谨慎使用；通常建议输出到 dist，不在此忽略
+
+# 其他
+.eslintignore
+.prettierignore
+.stylelintignore

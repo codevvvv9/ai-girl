@@ -1,0 +1,28 @@
+{
+  "name": "playgrounds",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "first-call": "tsx scripts/first-call.ts",
+    "first-stream": "tsx scripts/first-stream.ts",
+    "first-agent": "tsx scripts/first-agent.ts",
+    "first-prompt": "tsx scripts/first-prompt.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.33.0",
+  "dependencies": {
+    "@langchain/core": "^1.1.39",
+    "@langchain/openai": "^1.4.4",
+    "dotenv": "^17.4.2",
+    "langchain": "^1.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
